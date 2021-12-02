@@ -1,5 +1,28 @@
 header {
     .logo {
         max-width: 40px;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+    
+    a {
+        color: $for_header;
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .btn {
+        padding: 11px 25px 10px 25px;
+    }
+
+    div {
+        max-width: 731px;
+        width: 100%;
+    }
+
+    nav {
+        display: flex;
+        gap: 40px;
     }
 }
