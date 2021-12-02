@@ -1,0 +1,10 @@
+.about_us {
+ position: relative;
+    .part {
+        max-width: 50%;
+    }
+    
+    .part:hover {
+        opacity: 0.7;
+    }
+}
