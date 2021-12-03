@@ -1,10 +1,53 @@
 .about_us {
- position: relative;
+    position: relative;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    gap: 80px;
+    color: $primary;
+
+    p {
+        color: $secondary;
+        max-width: 479px;
+    }
+
     .part {
-        max-width: 50%;
+        max-width: 552px;
+
+        span {
+            font-size: 20px;
+            line-height: 27px;
+            color: $for_header;
+        }
+
+        h2 {
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 61px;
+            margin-top: 10px;
+            margin-bottom: 24px;
+        }
+        
+        .btn {
+            padding: 16px 32px;
+            max-width: 169px;
+        }
+    }
+
+    .room::after {
+        content: url(../../images/room_part_1.png);
+        max-width: 240px;
+        max-height: 160px;
+        position: absolute;
+        bottom: 85px;
+        margin-left: -215px;
     }
     
-    .part:hover {
-        opacity: 0.7;
+    .description {
+        max-width: 230px;
+        margin-top: 20px;
+        
+        img {
+            max-width: 56px;
+        }
     }
 }

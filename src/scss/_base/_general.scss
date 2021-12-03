@@ -18,6 +18,11 @@ img {
   justify-content: space-between;
 }
 
+.df_c_sb {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 .df_center {
   display: flex;
@@ -52,10 +57,6 @@ a:hover {
   opacity: 0.3;
 }
 
-img {
-  max-width: 100%;
-}
-
 body {
   font-family: 'Rubik';
   color: $primary;
@@ -71,6 +72,11 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
+}
+.fs14_lh17 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
 }
 
 button {
