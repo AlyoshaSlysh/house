@@ -1,0 +1,57 @@
+._what_are_you_looking_for {
+    background: $blue;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    color: $primary;
+
+    h2 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 61px;
+    }
+
+    picture {
+        max-width: 560px;
+    }
+
+    h3 {
+        color: $primary;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        margin: 0;
+        margin-bottom: 6px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 20px;
+        color: $secondary;
+        max-width: 360px;
+        margin: 0;
+    }
+
+    .df_sb {
+        gap: 50px;
+    }
+
+    
+    .object {
+        background: $white;
+        display: flex;
+        align-items: center;
+        gap: 34px;
+        padding: 24px;
+        margin-bottom: 16px;
+
+        picture {
+            img {
+              max-width: 56px;  
+            }            
+        }
+
+        .description {
+            padding-right: 41px;
+        }
+    }
+}
