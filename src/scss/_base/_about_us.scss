@@ -1,7 +1,5 @@
 .about_us {
     position: relative;
-    padding-top: 120px;
-    padding-bottom: 120px;
     gap: 80px;
     color: $primary;
 
@@ -19,14 +17,6 @@
             color: $for_header;
         }
 
-        h2 {
-            font-weight: 700;
-            font-size: 48px;
-            line-height: 61px;
-            margin-top: 10px;
-            margin-bottom: 24px;
-        }
-        
         .btn {
             padding: 16px 32px;
             max-width: 169px;

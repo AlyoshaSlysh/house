@@ -1,0 +1,63 @@
+._most_popular_places {
+    .imgs {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+
+        .df_center {
+            justify-content: center;
+        }
+
+        .bangladesh { 
+            grid-area: 1 / 1 / 3 / 2;
+            position: relative; 
+        }
+
+        .japan { 
+            grid-area: 1 / 2 / 2 / 3;
+            position: relative; 
+         }
+
+        .london { 
+            grid-area: 1 / 3 / 2 / 4;
+            position: relative; 
+        }
+
+        .malaysia { 
+            grid-area: 2 / 2 / 3 / 3;
+            position: relative; 
+        }
+
+        .india { 
+            grid-area: 2 / 3 / 3 / 4;
+            position: relative; 
+        }
+    }
+
+
+    .text {
+        position: absolute;
+        color: $white;
+        background: rgba(0, 96, 119, 0.02);
+        backdrop-filter: blur(29px);
+        max-width: 200px;
+        width: 100%;
+        text-align: center;
+        padding: 12px;
+        
+        h3 {
+            margin-top: 0;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 28px;
+        }
+
+        span {
+            font-size: 20px;
+            line-height: 27px;
+            color: #DDDDDD;
+        }
+    }
+}

@@ -66,6 +66,7 @@ body {
   font-weight: 400;
   font-size: 20px;
   line-height: 27px;
+  color: $secondary;
 }
 
 .fs20_lh24 {
@@ -73,6 +74,7 @@ body {
   font-size: 20px;
   line-height: 24px;
 }
+
 .fs14_lh17 {
   font-weight: 400;
   font-size: 14px;
@@ -90,4 +92,12 @@ button:hover {
 .p_120 {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 61px;
+  margin-top: 10px;
+  margin-bottom: 24px;
 }
