@@ -1,0 +1,35 @@
+footer {
+    .info {
+        color: $secondary;
+    
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 18px;
+            line-height: 21px;
+            color: $for_header;
+
+            img {
+                max-width: 40px;
+            }
+        }
+
+        p {
+            max-width: 329px;
+        }
+
+        .icons {
+            display: flex;
+            gap: 17px;
+        }
+
+        .icon {
+            color: #19BCE4;
+        }
+
+        ul {
+            text-decoration: none;
+        }
+    }
+}
