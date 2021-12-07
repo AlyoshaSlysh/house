@@ -1,0 +1,30 @@
+._what_people_say {
+    background: $pink;
+    padding-top: 96px;
+    padding-bottom: 97px;
+
+    .reviews {
+        gap: 30px;
+        padding-top: 139px;        
+
+        .review {
+            background: $white;
+            max-width: 370px;
+            padding: 0 38px 31px 39px;
+        }
+
+        .df_c_sb {
+            align-items: center;
+        }
+    }
+    
+
+    .ava {
+        margin-top: -79px;
+        max-width: 144px;
+    }
+
+    .stars {
+        max-width: 96px;
+    }
+}
