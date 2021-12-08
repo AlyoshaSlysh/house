@@ -1,6 +1,9 @@
 footer {
     .info {
         color: $secondary;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     
         .logo {
             display: flex;
@@ -27,9 +30,39 @@ footer {
         .icon {
             color: #19BCE4;
         }
+    }
+
+    .ul {
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+
+        h5 {
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 28px;
+            color: $primary;
+            margin: 0;
+        }
 
         ul {
-            text-decoration: none;
+            padding: 0;
+
+            
+            
+            a {
+                font-size: 18px;
+                line-height: 27px;
+                color: $secondary;
+
+                img {
+                    max-width: 16px;
+                }
+            }
+
+            li {
+                list-style: none;
+            }
         }
     }
 }
